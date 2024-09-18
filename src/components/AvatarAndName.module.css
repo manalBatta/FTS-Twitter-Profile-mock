@@ -3,25 +3,28 @@
   grid-template-areas:
     "img name"
     "img description";
-
+  padding: 5px;
   .avatar {
     grid-area: img;
-    width: 45px;
-    height: 45px;
+    width: 42px;
+    height: 42px;
     background-size: cover;
     border-radius: 50px;
   }
 
   h2 {
     grid-area: name;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: white;
     margin: 0;
     padding: 0;
+    font-weight: 500;
   }
   .description {
     grid-area: description;
     margin: 0;
     padding: 0;
+    color: rgb(163, 163, 163);
+    font-weight: 200;
   }
 }
