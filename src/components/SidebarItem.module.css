@@ -1,0 +1,10 @@
+.divContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.headline {
+  font-weight: 200;
+  text-transform: capitalize;
+  margin: 0;
+}

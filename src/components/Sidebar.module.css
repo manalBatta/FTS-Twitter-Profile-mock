@@ -1,0 +1,19 @@
+.divContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+  gap: 25px;
+  width: 210px;
+}
+.postBtn {
+  border: none;
+  border-radius: 20px;
+  background-color: #1c9bf0;
+  color: white;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  padding: 0.6rem;
+  width: 80%;
+  font-weight: 400;
+}

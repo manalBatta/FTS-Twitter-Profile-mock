@@ -1,0 +1,27 @@
+.divContainer {
+  display: grid;
+  grid-template-areas:
+    "img name"
+    "img description";
+
+  .avatar {
+    grid-area: img;
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+    border-radius: 50px;
+  }
+
+  h2 {
+    grid-area: name;
+    font-size: 1.2rem;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  .description {
+    grid-area: description;
+    margin: 0;
+    padding: 0;
+  }
+}
