@@ -13,6 +13,7 @@ import {
   faEllipsis,
 } from "@fortawesome/free-solid-svg-icons"; // Icons you need
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import AvatarAndName from "./AvatarAndName ";
 
 export default function Sidebar() {
   const iconsList = [
@@ -37,6 +38,12 @@ export default function Sidebar() {
     <div className={styles.divContainer}>
       <FontAwesomeIcon icon={faXTwitter} size="lg" /> {sidebarItems}
       <button className={styles.postBtn}>post</button>
+      <div className={styles.AvatarContainer}>
+        <AvatarAndName
+          avatarSrc="IMG_3284.png"
+          userName="Mohammad Dwika"
+          description="MohammadDwikat"></AvatarAndName>
+      </div>
     </div>
   );
 }

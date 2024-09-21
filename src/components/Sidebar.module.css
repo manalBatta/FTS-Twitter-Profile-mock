@@ -4,7 +4,9 @@
   align-items: flex-start;
   margin-left: 10px;
   gap: 25px;
-  width: 210px;
+  flex-grow: 0.5;
+  margin-right: 10px;
+  min-width: 200px;
 }
 .postBtn {
   border: none;
@@ -14,6 +16,11 @@
   text-transform: capitalize;
   font-size: 0.9rem;
   padding: 0.6rem;
-  width: 80%;
+  width: 90%;
   font-weight: 400;
+}
+
+.AvatarContainer {
+  position: absolute;
+  bottom: 5px;
 }

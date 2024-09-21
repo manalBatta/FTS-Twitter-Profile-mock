@@ -1,0 +1,5 @@
+.mainContainer {
+  flex-grow: 2;
+  border: 1pt rgba(178, 177, 177, 0.63) solid;
+  max-width: fit-content;
+}

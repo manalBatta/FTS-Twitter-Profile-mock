@@ -1,15 +1,19 @@
 .divContainer {
   display: grid;
   grid-template-areas:
-    "img name"
-    "img description";
+    "img name btn"
+    "img description btn"
+    " none headline headline";
   padding: 5px;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
   .avatar {
     grid-area: img;
-    width: 42px;
-    height: 42px;
+    width: 40px;
+    height: 40px;
     background-size: cover;
     border-radius: 50px;
+    margin-right: 10px;
   }
 
   h2 {
@@ -19,6 +23,7 @@
     margin: 0;
     padding: 0;
     font-weight: 500;
+    font-size: 0.8rem;
   }
   .description {
     grid-area: description;
@@ -27,4 +32,33 @@
     color: rgb(163, 163, 163);
     font-weight: 200;
   }
+  .headline {
+    grid-area: headline;
+    font-size: 0.8rem;
+  }
+  p {
+    margin: 5px;
+  }
+  .btn {
+    width: 60px;
+    cursor: pointer;
+    height: 28px;
+    grid-area: btn;
+    justify-self: end;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 2px;
+  }
+}
+
+.user {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: rgb(163, 163, 163);
+  margin: 0;
+  margin-left: 30px;
+  margin-top: 10px;
 }

@@ -1,0 +1,55 @@
+h5 {
+  color: #717171;
+  display: inline;
+}
+.dotes {
+  position: relative;
+  float: right;
+  margin-right: 5px;
+  bottom: 45px;
+  color: rgb(113, 113, 113);
+  font-size: 1.2rem;
+}
+.divContainer {
+  display: grid;
+  grid-template-areas:
+    "img name"
+    " img headline";
+  padding: 0 5px;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  max-width: fit-content;
+  height: 30px;
+  .avatar {
+    grid-area: img;
+    width: 42px;
+    height: 42px;
+    background-size: cover;
+    border-radius: 50px;
+    margin-right: 10px;
+  }
+
+  .head {
+    grid-area: name;
+    font-size: 1rem;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+  }
+
+  .headline {
+    grid-area: headline;
+    margin: 0;
+    font-size: 0.9rem;
+  }
+}
+
+.analysis {
+  width: 100%;
+  margin: 0;
+  padding: 1px 1px 5px 30px;
+  color: #717171;
+  font-size: 0.9rem;
+  border-bottom: #717171 solid 1px;
+}

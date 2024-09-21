@@ -1,0 +1,14 @@
+.searchContainer {
+  color: #717171;
+  background-color: #202427;
+  padding: 10px;
+  margin: 5px 0;
+  margin-right: 10%;
+  border-radius: 20px;
+  input {
+    background-color: transparent;
+    color: #717171;
+    border: none;
+    padding-left: 10px;
+  }
+}

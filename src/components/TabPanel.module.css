@@ -1,0 +1,16 @@
+.tabsContainer {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1pt #b2b1b1a1 solid;
+  margin-top: 8px;
+  a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+  }
+  .selected {
+    border-bottom: 3px solid rgb(37 154 211);
+    padding-bottom: 8px;
+  }
+}

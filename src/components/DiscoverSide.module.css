@@ -1,0 +1,4 @@
+.discoverContainer {
+  flex-grow: 1.5;
+  min-width: fit-content;
+}

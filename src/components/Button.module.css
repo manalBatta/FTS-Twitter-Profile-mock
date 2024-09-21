@@ -5,6 +5,9 @@
   text-transform: capitalize;
   font-size: 1.2rem;
   padding: 0.5rem;
-  width: 105px;
+  width: 70px;
   font-weight: 400;
+}
+.btn:hover {
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.573);
 }

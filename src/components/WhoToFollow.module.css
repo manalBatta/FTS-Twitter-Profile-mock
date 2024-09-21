@@ -1,0 +1,11 @@
+.head {
+  margin: 5px 10px 10px 10px;
+  font-size: 1.1rem;
+}
+.user {
+  font-size: 0.8rem;
+  font-weight: 100;
+  color: rgb(163, 163, 163);
+  margin: 0;
+  margin-left: 30px;
+}
