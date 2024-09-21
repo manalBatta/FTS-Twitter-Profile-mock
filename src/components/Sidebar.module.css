@@ -7,6 +7,7 @@
   flex-grow: 0.5;
   margin-right: 10px;
   min-width: 200px;
+  max-width: 100px;
 }
 .postBtn {
   border: none;

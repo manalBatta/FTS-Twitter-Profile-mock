@@ -1,6 +1,7 @@
 .discoverContainer {
   flex-grow: 1.5;
   min-width: fit-content;
+  max-width: 400px;
   footer {
     color: #717171;
     width: 250px;
