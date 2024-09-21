@@ -1,0 +1,26 @@
+.trendsContainer {
+  background-color: #202427;
+  padding: 10px;
+  margin: 5px 0;
+  margin-right: 10%;
+  border-radius: 10px;
+  .head {
+    margin: 0 0 5px 4px;
+  }
+  .trend {
+    color: #717171;
+    margin: 6% 5px;
+    h4 {
+      margin: 1px 0;
+      padding: 0;
+    }
+    .note {
+      font-size: 0.7rem;
+      display: inline;
+    }
+    .title {
+      font-size: 0.8rem;
+      color: white;
+    }
+  }
+}
