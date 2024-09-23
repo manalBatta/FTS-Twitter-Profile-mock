@@ -6,37 +6,38 @@ import Post from "../Post/Post";
 import TabPanel from "../TabPanel/TabPanel";
 import UserInfo from "../UserInfo/UserInfo";
 import WhoToFollow from "../WhoToFollow/WhoToFollow";
+// calculations to pass the join date to twitter
+const today = new Date();
+const monthNames = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+//tabs names array
+const tabs = ["Posts", "Replies", "Media", "Likes"];
+const monthName = monthNames[today.getMonth()];
+
+const postProps = {
+  postStatus: "reposted",
+  avatarSrc: "IMG_3284.png",
+  userName: "dandbramov.bsky.social",
+  linkAndDate: `dan_abramov ${monthName} ${today.getDate()}`,
+  headline: (
+    <>
+      happy 10th birthday to<Link text={"@reactjs"}></Link>!🎂
+    </>
+  ),
+};
 export default function MainContent() {
-  // calculations to pass the join date to twitter
-  const today = new Date();
-  const monthNames = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
-  ];
-  const monthName = monthNames[today.getMonth()];
-  //tabs names array
-  const tabs = ["Posts", "Replies", "Media", "Likes"];
-  const postProps = {
-    postStatus: "reposted",
-    avatarSrc: "IMG_3284.png",
-    userName: "dandbramov.bsky.social",
-    linkAndDate: `dan_abramov ${monthName} ${today.getDate()}`,
-    headline: (
-      <>
-        happy 10th birthday to<Link text={"@reactjs"}></Link>!🎂
-      </>
-    ),
-  };
   return (
     <div className={styles.mainContainer}>
       <BackArrow userName="React" numberOfPosts="2,116"></BackArrow>

@@ -3,53 +3,52 @@ import SearchBar from "../SearchBar/SearchBar";
 import Suggestions from "../Suggestions/Suggestions";
 import Trends from "../Trends/Trends";
 
+const props = [
+  {
+    postsNum: "27.9k ",
+    title: "#VALORANTChampions💢",
+    cat: "Gaming Trending",
+    isRtl: false,
+  },
+  {
+    postsNum: "1,411 ",
+    title: "الانستا",
+    isRtl: true,
+  },
+  {
+    postsNum: "14.1k ",
+    title: "Mako",
+    cat: "Gaming Trending",
+    isRtl: false,
+  },
+  {
+    postsNum: "22.3k ",
+    title: "#رساله_اليوم",
+    isRtl: true,
+  },
+  {
+    postsNum: "77.2k ",
+    title: "#Messi(",
+    isRtl: false,
+  },
+  {
+    postsNum: "27.6k ",
+    title: "#جامعه_طيبه",
+    isRtl: true,
+  },
+  {
+    postsNum: "8,748 ",
+    title: "fnatic",
+    cat: "Gaming Trending",
+    isRtl: false,
+  },
+  {
+    postsNum: "68.4k ",
+    title: "#InterMiamiCF",
+    isRtl: false,
+  },
+];
 export default function DiscoverSide() {
-  const props = [
-    {
-      postsNum: "27.9k ",
-      title: "#VALORANTChampions💢",
-      cat: "Gaming Trending",
-      isRtl: false,
-    },
-    {
-      postsNum: "1,411 ",
-      title: "الانستا",
-      isRtl: true,
-    },
-    {
-      postsNum: "14.1k ",
-      title: "Mako",
-      cat: "Gaming Trending",
-      isRtl: false,
-    },
-    {
-      postsNum: "22.3k ",
-      title: "#رساله_اليوم",
-      isRtl: true,
-    },
-    {
-      postsNum: "77.2k ",
-      title: "#Messi(",
-      isRtl: false,
-    },
-    {
-      postsNum: "27.6k ",
-      title: "#جامعه_طيبه",
-      isRtl: true,
-    },
-    {
-      postsNum: "8,748 ",
-      title: "fnatic",
-      cat: "Gaming Trending",
-      isRtl: false,
-    },
-    {
-      postsNum: "68.4k ",
-      title: "#InterMiamiCF",
-      isRtl: false,
-    },
-  ];
-
   return (
     <div className={styles.discoverContainer}>
       <SearchBar></SearchBar>

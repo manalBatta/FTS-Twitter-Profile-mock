@@ -1,9 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./Post.module.css";
 import {
-  faChartColumn,
   faEllipsis,
-  faFileExport,
   faHeart,
   faMessage,
   faArrowUpFromBracket,

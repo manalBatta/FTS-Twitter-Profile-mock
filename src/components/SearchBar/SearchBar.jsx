@@ -6,7 +6,7 @@ export default function SearchBar() {
     <>
       <div className={styles.searchContainer}>
         <FontAwesomeIcon icon={faSearch}></FontAwesomeIcon>
-        <input type="text" value={"Search"} />
+        <input type="text" value={"Search"} readOnly />
       </div>
     </>
   );
