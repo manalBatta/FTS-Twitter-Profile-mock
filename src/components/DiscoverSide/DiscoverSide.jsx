@@ -1,7 +1,7 @@
 import styles from "./DiscoverSide.module.css";
-import SearchBar from "./SearchBar";
-import Suggestions from "./Suggestions";
-import Trends from "./Trends";
+import SearchBar from "../SearchBar/SearchBar";
+import Suggestions from "../Suggestions/Suggestions";
+import Trends from "../Trends/Trends";
 
 export default function DiscoverSide() {
   const props = [

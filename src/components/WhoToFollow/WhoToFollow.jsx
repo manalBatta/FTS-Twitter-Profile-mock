@@ -1,8 +1,6 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./WhoToFollow.module.css";
-import { faUser } from "@fortawesome/free-solid-svg-icons";
-import AvatarAndName from "./AvatarAndName ";
-import Link from "./Link";
+import AvatarAndName from "../AvatarAndName/AvatarAndName ";
+import Link from "../Link/Link";
 
 export default function WhoToFollow(params) {
   const usersProps = [

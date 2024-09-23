@@ -1,8 +1,7 @@
 import "./App.css";
-import AvatarAndName from "./components/AvatarAndName ";
-import DiscoverSide from "./components/DiscoverSide";
-import MainContent from "./components/MainContent";
-import Sidebar from "./components/Sidebar";
+import DiscoverSide from "./components/DiscoverSide/DiscoverSide";
+import MainContent from "./components/MainContent/MainContent";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
   return (

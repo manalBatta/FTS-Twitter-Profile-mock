@@ -1,5 +1,5 @@
 import styles from "./AvatarAndName.module.css";
-import Button from "./Button";
+import Button from "../Button/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 export default function AvatarAndName({

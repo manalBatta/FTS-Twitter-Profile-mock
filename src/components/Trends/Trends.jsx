@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./Trends.module.css";
 import { faEllipsis } from "@fortawesome/free-solid-svg-icons";
-import Link from "./Link";
+import Link from "../Link/Link";
 
 export default function Trends({ props }) {
   const trends = props.map((prop) => (

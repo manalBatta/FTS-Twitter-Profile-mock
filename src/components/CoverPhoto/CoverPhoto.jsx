@@ -1,8 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Button from "./Button";
+import Button from "../Button/Button";
 import styles from "./CoverPhoto.module.css";
 import { faBell, faEllipsis } from "@fortawesome/free-solid-svg-icons";
-import AvatarAndName from "./AvatarAndName ";
 
 export default function CoverPhoto({ coverImageUrl, profileImageUrl }) {
   return (

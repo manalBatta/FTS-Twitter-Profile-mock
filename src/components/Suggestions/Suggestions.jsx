@@ -1,5 +1,5 @@
-import AvatarAndName from "./AvatarAndName ";
-import Link from "./Link";
+import AvatarAndName from "../AvatarAndName/AvatarAndName ";
+import Link from "../Link/Link";
 import styles from "./Suggestions.module.css";
 
 export default function Suggestions() {

@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./UserInfo.module.css";
 import { faCalendar, faLink } from "@fortawesome/free-solid-svg-icons";
-import AvatarAndName from "./AvatarAndName ";
-import Link from "./Link";
+import AvatarAndName from "../AvatarAndName/AvatarAndName ";
+import Link from "../Link/Link";
 
 export default function UserInfo({
   websiteLink,

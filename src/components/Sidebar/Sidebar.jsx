@@ -1,5 +1,5 @@
 import styles from "./Sidebar.module.css";
-import SidebarItem from "./SidebarItem";
+import SidebarItem from "../SidebarItem/SidebarItem";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouseUser,
@@ -13,7 +13,7 @@ import {
   faEllipsis,
 } from "@fortawesome/free-solid-svg-icons"; // Icons you need
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
-import AvatarAndName from "./AvatarAndName ";
+import AvatarAndName from "../AvatarAndName/AvatarAndName ";
 
 export default function Sidebar() {
   const iconsList = [

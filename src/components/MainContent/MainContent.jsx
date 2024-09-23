@@ -1,12 +1,11 @@
-import AvatarAndName from "./AvatarAndName ";
-import BackArrow from "./BackArrow";
-import CoverPhoto from "./CoverPhoto";
-import Link from "./Link";
+import BackArrow from "../BackArrow/BackArrow";
+import CoverPhoto from "../CoverPhoto/CoverPhoto";
+import Link from "../Link/Link";
 import styles from "./MainContent.module.css";
-import Post from "./Post";
-import TabPanel from "./TabPanel";
-import UserInfo from "./UserInfo";
-import WhoToFollow from "./WhoToFollow";
+import Post from "../Post/Post";
+import TabPanel from "../TabPanel/TabPanel";
+import UserInfo from "../UserInfo/UserInfo";
+import WhoToFollow from "../WhoToFollow/WhoToFollow";
 export default function MainContent() {
   // calculations to pass the join date to twitter
   const today = new Date();
