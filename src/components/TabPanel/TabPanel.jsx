@@ -9,7 +9,8 @@ export default function TabPanel({ tabs }) {
   }
 
   const tabsPanel = tabs.map((tab, index) => (
-    <a
+    <a 
+      href="#"
       onClick={(event) => handleClick(event, index)}
       key={tab}
       className={selectedTab === index ? styles.selected : ""} // Apply selected class if index matches
